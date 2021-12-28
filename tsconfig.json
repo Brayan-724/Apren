@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": ["src/**/*.ts"],
+  "exclude": ["bin", "packages", "test", "node_modules", "**/*.d.ts"],
+  "ts-node": {
+    "project": "./tsconfig.json"
+  },
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./src"
+  }
+}
