@@ -1,2 +1,3 @@
 [submodule "bin"]
+	path = "bin"
 	url = https://github.com/Kaludevs/kaludevs-bin.git
